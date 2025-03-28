@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chakra Energy Flow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="human-body">
+            <div class="chakra root" id="root"></div>
+            <div class="chakra sacral" id="sacral"></div>
+            <div class="chakra solar" id="solar"></div>
+            <div class="chakra heart" id="heart"></div>
+            <div class="chakra throat" id="throat"></div>
+            <div class="chakra third-eye" id="third-eye"></div>
+            <div class="chakra crown" id="crown"></div>
+        </div>
+        <div class="energy-flow"></div>
+    </div>
+
+    <audio id="root-audio" src="sounds/root.mp3"></audio>
+    <audio id="sacral-audio" src="sounds/sacral.mp3"></audio>
+    <audio id="solar-audio" src="sounds/solar.mp3"></audio>
+    <audio id="heart-audio" src="sounds/heart.mp3"></audio>
+    <audio id="throat-audio" src="sounds/throat.mp3"></audio>
+    <audio id="third-eye-audio" src="sounds/third-eye.mp3"></audio>
+    <audio id="crown-audio" src="sounds/crown.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
